@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catAPI</title>
+   <script src="calc.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+       <marquee behavior="" direction="left to right"> <h3>catAPI</h3> </marquee>
+        
+       <div id="catsapi">
+        
+             <p id="underline">The catAPI: cats as a service</p>
+       
+             <details >
+
+                <summary> about catAPI</summary> 
+                  <p id="about">A public service API all about Cats, free to use when making your fancy new App, Website or Service.Can Search thousands's of Cat images ·
+                       Get info out about the different Breeds · </p>
+             </details>
+      </div>
+
+            <h4>API tester:</h4>
+       <p id="testAPI">You can test by enetering a text to get random cat</p>
+      
+      <!-- search box  -->
+       <div id="searchbar_icon"> 
+     
+        <ion-icon name="search-outline" id="serach_icon"></ion-icon><input type="search" placeholder="/hello or /cute or /soft or /eyes or /sleepings or /confused or /jump or /white or /funny ......"  id="search_cat" width="200px"  height="200px"> 
+        <button type="button" id="search_validate" onclick="filterCats()">try it yourself</button>
+     
+      </div>
+       
+      <!-- append our results -->
+       <h5>LIST OF ALL THE CATS</h5>
+       <p class="cats"></p>
+       <div id="results"></div>
+     
+</body>
+</html>

@@ -1,0 +1,42 @@
+Task Name : CAT API 
+-----------------
+
+
+Implement the Cat API using async/await with fetch.
+
+
+
+Constraints:
+-----------
+1.All your HTML elements should be created with DOM.
+
+2.Use the async/await.
+
+3.Use try catch to handle errors.
+
+4.Use fetch() to get the data from Cats Api
+
+5.All JavaScript codes should be in a script file named script.js which has to be imported in your HTML page.
+
+
+
+How do I process the API data?
+------------------------------
+
+1.List all the cats on the screen with a given api https://cataas.com/api/cats.
+
+2.Place a search bar on the top of your webpage and filter cats based on the searched keyword using this api https://cataas.com/api/cats?tags=cute.
+
+3.Display the cat image in a popup on your webpage.
+
+4.To get the image url, append the cat id with the url. 
+
+Example: https://cataas.com/cat/<CAT_ID>
+
+
+
+Any basic hints to solve?
+------------------------
+https://cataas.com/#/about
+
+https://cataas.com/#/integration
